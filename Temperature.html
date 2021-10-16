@@ -3,13 +3,10 @@
   <head>
 ​
     <meta charset="UTF-8">
-    <!--Pulling code from w3 bootstrap tutorial-->
-    <!--The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).-->
-    <!--The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 ​
-    <title>Landing Page</title>
+    <title>Latitude vs Max Temperature</title>
 ​
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
@@ -41,7 +38,7 @@
               </div>
             </li>
             <li class="nav-item">
-			  <a class="nav-link" href="Comparison_Page.html">Comparison</a>
+            <a class="nav-link" href="Comparison_Page.html">Comparison</a>
 			</li>
             <li class="nav-item">
 			  <a class="nav-link" href="info_table.html">Data</a>
@@ -51,22 +48,18 @@
       </nav>
 	</div>
     <!-- End of navbar -->
-​
-  
-  <br>
-  <br>
-
+​<br>
+<br>
     <!-- Start of container -->
     <!--======================================================================================================================-->
     <div class="container">
       <section class="row">
         <div class="col-lg-7 col-md-12">
           <div class="description-content">
-            <h1 class="description-header">Summary: Latitude vs X</h1>
+            <h1 class="description-header">Max Temperature</h1>
             <hr>
-            <img src="../Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. I first pulled data from the "WeatherMap API" to assemble a dataset on over 500 cities to produce this analysis .</p>
-            <p>After assembling the dataset, I used Matplotlib to plot various aspects of the weather vs. latitude. The aspects at play here included: max temperature, humidity, cloudiness, and wind speed. This site provides the source data and visualizations created as part of the analysis. As well as descriptions of any trends and correlations I found while assessing the data.</p>
+            <img src="../Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature">
+            <p>The scatter plot above displays the connection between Latitude and Max Temperature. The closer a city is to the equator (Latitude = 0) the greater the max temperature will be. The cities further away have a lower max temperature.</p>
           </div>
         </div>
         <div class="col-lg-5 col-md-12">
@@ -86,9 +79,9 @@
 				  </div>
 				  <div class="col-6">
                     <a href="humidity.html">
-				      <img src="../Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
+                                    <img src="../Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
 			        </a>
-                    </div>
+				  </div>
 				  <div class="col-6">
                     <a href="cloudiness.html">
 				      <img src="../Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
@@ -113,24 +106,22 @@
     <!-- Start of footer -->
     <!--======================================================================================================================-->
     <footer>
-      <div class="footer"> deepzissou "Web Challenge"</div>
+      <div class="footer"> deepzissou </div>
     </footer>
-
     <!-- End of footer -->
 
-​<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
-crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
-integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
-crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
-crossorigin="anonymous"></script> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+  crossorigin="anonymous"></script>
 
-	
-    
-    
-</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+  crossorigin="anonymous"></script> 
+
+  </body>
 ​
 </html>
